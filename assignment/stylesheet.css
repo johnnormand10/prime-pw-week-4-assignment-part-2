@@ -1,9 +1,68 @@
 header{
-    background-color: lightslategray
+    background-color: darkGray;
+    opacity: 100%;
+}
+
+.border{
+    position:fixed;
+    background: silver;
+}
+
+.top, .bottom{
+    left: 575px;
+    right: 575px;
+    height: 10px;
+}
+
+.top{
+    top: 110px;
+}
+
+.bottom{
+    top: 570px;
+    bottom: 0;
+}
+
+.right, .left{
+    top: 110px;
+    bottom: 300px;
+    width: 10px;
+}
+
+.right{
+    left:575px;
+}
+
+.left{
+    right: 575px;
+}
+
+.body{
+    text-align: center;
 }
 
 .name{
-    background-color:gray
-    text-color: white
 
+    display:inline-block;
+    background-position: center top;
+    background-color: gray;
+    background-position-x: left;
+    color: black;
 }
+
+.carImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    line-height: 0;
+}
+
+.description{
+    display: inline-block;
+    background-position: center top;
+    background-color: gray;
+    background-position-x: left;
+    color: black;   
+}
+
