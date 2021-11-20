@@ -3,38 +3,15 @@ header{
     opacity: 100%;
 }
 
-.border{
+.imgBackground{
     position:fixed;
+    border-style: ridge;
+    border-color: black;
     background: silver;
-}
-
-.top, .bottom{
-    left: 575px;
-    right: 575px;
-    height: 10px;
-}
-
-.top{
-    top: 110px;
-}
-
-.bottom{
-    top: 570px;
-    bottom: 0;
-}
-
-.right, .left{
     top: 110px;
     bottom: 300px;
-    width: 10px;
-}
-
-.right{
-    left:575px;
-}
-
-.left{
     right: 575px;
+    left: 575px;
 }
 
 .body{
@@ -52,7 +29,7 @@ header{
 
 .carImage{
     display: block;
-    margin-left: auto;
+    margin-left: 12px;
     margin-right: auto;
     width: 35%;
     line-height: 0;
